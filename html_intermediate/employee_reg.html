@@ -112,6 +112,14 @@
         document.getElementById("registration-form").addEventListener("submit", function(event) {
             event.preventDefault(); // Prevent the default form submission
     
+            // Get form values
+            const lastName = document.getElementById("last_name").value;
+            const firstName = document.getElementById("first_name").value;
+            const middleName = document.getElementById("middle_name").value;
+            const birthdate = document.getElementById("birthdate").value;
+            const department = document.getElementById("department").value;
+            const office = document.getElementById("office").value;
+    
         });
     </script>
 </body>
